@@ -1,0 +1,117 @@
+<!--<!DOCTYPE html>
+<html>
+    <head> 
+        <title>NOT SEMANTIC</title>
+    </head>
+    <body>
+        <div>
+            <span><img height="50px" src="./images/samsung_logo.jpg" /></span>
+        <ul>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Tags</a></li>
+        </ul>    
+        </div>
+
+        <h1>The Web Develoement Blog</h1>
+        <div>
+            <h2>HTML</h2>
+            <p>All about HTML</p>
+            <a href="#">Read about HTML</a>
+        </div>
+        <div>
+            <h2>CSS</h2>
+            <p>All about CSS</p>
+            <a href="#">Read about CSS</a>
+        </div>
+        <div>
+            <h2>Java Script</h2>
+            <p>All about Java Script</p>
+            <a href="#">Read about Java</a>
+        </div>
+
+        <div>
+            <ul>
+                <li><a href="#">HTML Blog</a></li>
+                <li><a href="#">CSS Blog</a></li>
+                <li><a href="#">Java Blog</a></li>
+            </ul>
+        </div>
+    </body>
+</html>--> 
+
+
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>SEMANTIC ELEMENT</title>
+    </head>
+    <body>
+        <!--Page Header -->
+        <header>
+            <span><img height="50px" src="./images/samsung_logo.jpg" /></span>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">about</a></li>
+                </ul> 
+            </nav>
+        </header>
+
+        <!--Main Page-->
+        <main>
+            <h1>The Web Develoement Blog</h1>
+            <setion>
+                <article>
+                    <header>
+                        <dl>
+                            <dt>HTML</dt>
+                            <dd>Hyper Text Markup Language</dd>
+                        </dl>
+                    </header>
+                    <p>All about HTML</p>
+                    <a href="#">Read about HTML</a>
+                </article>
+                
+                <article>
+                    <header>
+                        <dl>
+                            <dt>CSS</dt>
+                            <dd>Cascading Style Sheets</dd>
+                        </dl>
+                    </header>
+                    <p>All about CSS</p>
+                    <a href="#">Read about CSS</a>
+                </article>
+                
+                <article>
+                    <header>
+                        <dl>
+                            <dt>JS</dt>
+                            <dd>Java Script</dd>
+                        </dl>
+                    </header>
+                    <p>All about Java Script</p>
+                    <a href="#">Read about Java</a>
+                </article>
+            </section>
+        </main>
+
+        <!--Side bar-->
+        <aside>
+            <h3>Latest Blogs</h3>
+            <ul>
+                <li><a href="#">HTML Blog</a></li>
+                <li><a href="#">CSS Blog</a></li>
+                <li><a href="#">Java Blog</a></li>
+            </ul>
+        </aside>
+
+        <!--Page Footer-->
+        <footer>
+            <p>Copyright &copy 2023. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
+
+
